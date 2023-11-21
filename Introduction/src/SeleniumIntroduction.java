@@ -18,8 +18,6 @@ public class SeleniumIntroduction  {
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
 		
-		
-		
 
 	}
 
