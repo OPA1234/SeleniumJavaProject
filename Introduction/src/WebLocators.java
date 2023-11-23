@@ -31,7 +31,11 @@ public class WebLocators {
         driver.findElement(By.id("inputUsername")).sendKeys("Rastko");
         driver.findElement(By.name("inputPassword")).sendKeys("rahulshettyacademy");
         driver.findElement(By.className("signInBtn")).click();
+        Thread.sleep(1000);
+        System.out.println(driver.findElement(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h1:nth-child(2)")).getText());
 
+
+    
 
 
 
