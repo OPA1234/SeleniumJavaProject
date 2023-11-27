@@ -20,10 +20,7 @@ public class E2E {
         if (driver.findElement(By.id("Div1")).getAttribute("style").contains("0.5")){
             System.out.println("its enabled");
                 AssertJUnit.assertTrue(true);
-         } else {
-            System.out.println("its disabled");
-            AssertJUnit.assertTrue(true);
-         }
+         } 
 
          driver.findElement(By.id("ctl00_mainContent_SeniorCitizenDiv")).click();
          driver.findElement(By.id("divpaxinfo")).click();
